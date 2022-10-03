@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@500&display=swap');
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Source Code Pro', monospace;
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.554) , rgb(0, 255, 17));
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 50%;
+    height: 50%;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    background: linear-gradient(to left, rgba(34, 34, 211, 0.701), rgba(255, 0, 0, 0.594));
+    box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.534);
+}
+.text-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100px;
+    position: relative;
+}
+div .fly-top-right {
+    position: absolute;
+    font-size: 14px;
+    top: 1px;
+    right: 1px;
+    background: green;
+    width: 50px;
+    border-radius: 0px 10px 0 0;
+    color: white;
+}
+textarea {
+    padding: 15px 20px;
+    width: 100%;
+    height: 100px;
+    resize: none;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+    border: none;
+    border-radius: 10px;
+    letter-spacing: normal;
+    word-spacing: normal;
+    background: rgb(255, 194, 194);
+}
+textarea:focus {
+    border: none;
+    outline: none ;
+}
+
+button {
+    margin-top: 10px;
+    width: 120px;
+    height: 30px;
+    font-size: 15px;
+    border-radius: 20px;
+    cursor: pointer;
+    background-color: chartreuse;
+    opacity: 0.8;
+}
+button:hover {
+    opacity: 1;
+}
+button:active {
+    border: none;
+}
