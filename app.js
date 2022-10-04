@@ -11,6 +11,7 @@ readTextBtn.addEventListener('click', ()=> {
         setTimeout(()=>{
             textBox.value = ''
             wordCount.textContent = '0'
+            wordCount.style.backgroundColor = 'green';
         }, 4000)
     }
 });
